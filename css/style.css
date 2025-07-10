@@ -1,25 +1,56 @@
 .open-sans-normal {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
 }
-.nav{
+
+.header {
+    padding-top: 5px;
+    padding-bottom: 80px;
+    background-image: url("/Assets/Hero-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.nav {
     display: flex;
     justify-content: space-between;
     margin: 50px 200px;
 }
-.logo{
+
+.logo {
     color: #4E47FF;
     font-size: x-large;
 }
-.primary-button{
-        background-color: #4E47FF;
+
+.primary-button {
+    background-color: #4E47FF;
     color: white;
-    font-weight: normal;
     padding: 10px 30px;
     border-radius: 5px;
-    font-size: 15px;
     border: none;
 }
+
+.dark-container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.title-1 {
+
+    font-size: xx-large;
+}
+
+.btn-2 {
+    padding: 10px 15px;
+    text-align: center;
+    background-color: #4E47FF;
+    color: white;
+    border: none;
+}
+
 /* navbar section is done  */
