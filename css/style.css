@@ -57,132 +57,224 @@
 
 /* navbar section is done  */
 
-.container-2{
+.container-2 {
     margin-top: 60px;
     margin-bottom: 60px;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-.text-2{
+
+.text-2 {
     font-size: 35px;
-   
+
 }
-.img-2{
-    border-radius: 25px ;
+
+.img-2 {
+    border-radius: 25px;
 }
 
 /* second section is done  */
 
 /* third section is start  */
-.container-3{
+.container-3 {
     background-color: #e8e8f8;
-    margin: 0 150px ;
-    border-radius: 10px ;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin: 0 150px;
+    border-radius: 10px;
     padding: 10px 30px;
     padding-bottom: 30px;
 }
-.user{
+
+.user {
     display: flex;
     justify-content: space-around;
     margin: 0 30px;
-    
+
 }
-.text-3{
+
+.text-3 {
     font-size: x-large;
     text-align: center;
 }
-.active-user{
+
+.active-user {
     color: #4E47FF;
     font-size: 50px;
 }
 
 /* fourth section start  */
-.container-4{
+.container-4 {
     text-align: center;
     margin-top: 60px;
 }
-.card-container{
+
+.card-container {
     display: flex;
     text-align: center;
     justify-content: center;
     gap: 20px;
 
 }
-.card-1{
+
+.card-1 {
     padding: 30px;
-    border-radius: 5px ;
     width: 20%;
-    background: #f4f2f2;
-   text-align: left;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: left;
 }
-.text-4{
+
+.text-4 {
     font-size: 40px;
 }
+
 .checked {
-  color: orange;
+    color: orange;
 }
-.img-4{
+
+.img-4 {
     display: flex;
     align-items: center;
 }
-.avatar{
+
+.avatar {
     width: 30px;
     height: 30px;
-    border-radius: 80px ;
+    border-radius: 80px;
 }
-.review{
+
+.review {
     list-style: none;
-     font-size: small;
-     margin-left: -25px;
+    font-size: small;
+    margin-left: -25px;
 }
-.paragraph{
+
+.paragraph {
     font-size: small;
 }
 
 /* five section is start  */
-.container-5{
-    background-color: oklab(95.403% -0.00151 0.00499);
-    margin: 0 150px ;
+.container-5 {
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 0 150px;
     padding: 20px;
     margin-top: 60px;
     text-align: center;
 }
-.img-5{
+
+.img-5 {
     margin-top: 30px;
-   
+
 }
-.five{
-     border-radius: 35px;
+
+.five {
+    border-radius: 35px;
 }
 
 
 /* six section is start  */
 
+.container-6 {
+
+    margin-top: 60px;
+    margin: 50px 150px;
+}
+
+.container {
+    display: flex;
+
+
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.left {
+    flex: 1;
+    color: rgb(2, 2, 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+}
+
+.right {
+    flex: 1;
+    padding: 40px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    resize: none;
+    height: 100px;
+}
+
+button {
+
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    padding: 12px 150px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #165fcb;
+}
 
 /* seven section is start  */
 
-.container-7{
-    background-color: #f2f2f2;
+.container-7 {
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     text-align: center;
     margin-top: 50px;
     padding: 70px;
 }
-.logo-7{
 
-}
-.menu{
+.logo-7 {}
+
+.menu {
     margin: 0 20px;
     display: flex;
     justify-content: center;
     list-style: none;
     gap: 30px;
-    
+
 
 }
-.footer-logo{
+
+.footer-logo {
     color: #4E47FF;
-    font-size: 50px ;
+    font-size: 50px;
     font-weight: bolder;
 }
+
 /* seven section is done !!  */
