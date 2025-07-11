@@ -98,7 +98,47 @@
 }
 
 /* fourth section start  */
+.container-4{
+    text-align: center;
+    margin-top: 60px;
+}
+.card-container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
 
+}
+.card-1{
+    padding: 30px;
+    border-radius: 5px ;
+    width: 20%;
+    background: #f4f2f2;
+   text-align: left;
+}
+.text-4{
+    font-size: 40px;
+}
+.checked {
+  color: orange;
+}
+.img-4{
+    display: flex;
+    align-items: center;
+}
+.avatar{
+    width: 30px;
+    height: 30px;
+    border-radius: 80px ;
+}
+.review{
+    list-style: none;
+     font-size: small;
+     margin-left: -25px;
+}
+.paragraph{
+    font-size: small;
+}
 
 /* five section is start  */
 .container-5{
@@ -145,3 +185,4 @@
     font-size: 50px ;
     font-weight: bolder;
 }
+/* seven section is done !!  */
