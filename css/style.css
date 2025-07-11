@@ -102,7 +102,7 @@
 
 /* five section is start  */
 .container-5{
-    background-color: #fff6f6;
+    background-color: oklab(95.403% -0.00151 0.00499);
     margin: 0 150px ;
     padding: 20px;
     margin-top: 60px;
@@ -122,3 +122,26 @@
 
 /* seven section is start  */
 
+.container-7{
+    background-color: #f2f2f2;
+    text-align: center;
+    margin-top: 50px;
+    padding: 70px;
+}
+.logo-7{
+
+}
+.menu{
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+    
+
+}
+.footer-logo{
+    color: #4E47FF;
+    font-size: 50px ;
+    font-weight: bolder;
+}
